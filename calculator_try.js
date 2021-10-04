@@ -9,7 +9,7 @@ keys.addEventListender('click', e => {
         if(!action) {
             console.log('number key!')
         }
-        if(action === 'add' || action === 'subract'|| action === 'multiply'|| action === 'divide') {
+        if (action === 'add' || action === 'subract'|| action === 'multiply'|| action === 'divide') {
             console.log('operator key!')
         }
         if (action === 'decimal') {
